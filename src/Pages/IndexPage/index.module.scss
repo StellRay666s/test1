@@ -1,0 +1,28 @@
+.wrapper {
+  width: 1400px;
+  margin: 0 auto;
+  height: 800px;
+  border: 1px solid black;
+
+  .inp_btn {
+    display: flex;
+    align-items: center;
+    gap: 0px;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+
+  .button {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .logout {
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+    margin: 10px 10px;
+    text-decoration: none;
+  }
+}

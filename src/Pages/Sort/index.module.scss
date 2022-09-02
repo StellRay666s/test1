@@ -1,0 +1,21 @@
+.wrapper {
+  display: flex;
+  margin-top: 20px;
+  width: 400px;
+  height: 40px;
+  gap: 20px;
+  align-items: center;
+  text-align: center;
+
+  .link {
+    cursor: pointer;
+  }
+
+  .link_active {
+    font-size: 18px;
+    background-color: aliceblue;
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 6px;
+  }
+}
