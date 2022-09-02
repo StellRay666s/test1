@@ -56,7 +56,7 @@ function IndexPage() {
 
   //Проверка на авторизация
   React.useEffect(() => {
-    if (token == null) {
+    if (token == false) {
       alert('Необходимо авторизоваться');
       navigate('/authorization');
     }
